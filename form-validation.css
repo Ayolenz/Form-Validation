@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #9836e2;
+  /* background-color: #22162B; 612B78 */
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+form{
+  padding: 10px;
+  background-color: white;
+}
+
+.container{
+  background-color: white;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 4%;
+  height: 80vh;
+  border-radius: 20px;
+
+}
+.header{
+  margin-top: 60px ;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.form-main input{
+  width: 100%;
+  padding: 10px 30px;
+}
+
+
+.form-main label{
+  margin-bottom: 5px;
+  display: block;
+  font-size: 15px;
+}
+
+.form-main{
+  position: relative;
+  margin-bottom: 5px;
+  
+}
+
+.form-main input:focus {
+  outline: 0;
+}
+
+.form-main.success input {
+  border-color: #09c372;
+}
+
+.form-main.error input{
+  border-color: #ff3860;
+}
+
+
+
+/* style for icons */
+.form div i{
+  position: absolute;
+  padding: 10px;
+  
+}
+
+/* .success, .failure{
+  right: 0;
+  opacity: 0;
+} */
+
+/* colour set for suuces and failure */
+
+/* .success{
+  color: green;
+}
+
+.failure{
+  color: red;
+} */
+
+/* button design */
+button{
+  width: 100%;
+  border-radius: 4px;
+  outline: none;
+  padding: 10px;
+  margin-top: 10px;
+  height: 45%;
+  cursor: pointer;
+  color: white;
+  background-color: #22162B;
+}
+
+
+.error{
+  color: red;
+  font-size: 10px;
+}
+
+
+button:hover{
+  background-color: #7c1cc5;
+  transition: 1.2s;
+}
